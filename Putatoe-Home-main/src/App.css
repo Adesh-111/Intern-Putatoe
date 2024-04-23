@@ -1,0 +1,297 @@
+* 
+{
+  font-family: "Nunito", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+html
+{
+  background-color: #faf6f6;
+}
+
+.only_mobile
+{
+  display: none;
+}
+
+nav
+{
+  /* background-color: #419ea6; */
+  background-color: #00838f;
+  overflow: hidden;
+}
+
+.top
+{
+  color: white;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  padding-top: 10px;
+  font-size: large;
+}
+
+.location_text
+{
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 75vw;
+  height: 25px;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: large;
+}
+
+.location_icon
+{
+  width: 5vw;
+  text-align: center;
+}
+
+.notifications_icon,.cart_icon 
+{
+  width: 7.5vw;
+  text-align: center;
+}
+
+.searchbar
+{
+  font-size: x-large;
+  position: sticky;
+  top: 0;
+  left: 0;
+  margin: 15px 0px 3px 15px;
+  width: 100vw;
+  padding-bottom: 10px;
+}
+
+.search_area 
+{
+  width: 80vw;
+  padding: 8px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.search_area input
+{
+  font-size: 18px;
+  height: 20px;
+  width: 70%;
+  border: none;
+  outline: none;
+}
+
+.search_icon 
+{
+  width: 10%;
+  /* color: #419ea6; */
+  color: #00838f;
+}
+
+.searchbar div 
+{
+  display: inline-block;
+}
+
+.Voice_recognition 
+{
+  width: 8vw;
+  text-align: center;
+  color: white;
+}
+
+.mainContainer
+{
+  margin: 10px 5px 10px 5px;
+  height: 200px;
+}
+.mainLogo
+{
+  width: 100%;
+  height: 200px;
+}
+
+.icons
+{
+  background-color: white;
+  text-align: center;
+  padding-top: 20px;
+  margin: 5px 2px 0px;
+  border: 2px solid #cff5f9;
+  border-radius: 5px;
+}
+
+.icons div
+{
+  display: inline-block;
+  width: 23vw;
+  text-align: center;
+  margin-bottom: 20px;
+  /* color: #419ea6; */
+  color: #00838f;
+}
+
+.icons div span
+{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: x-small;
+}
+
+.icons div
+{
+  font-size: x-large;
+}
+
+.service_products .head 
+{
+  height: 35px;
+  background-color: #c8f7fb;
+  margin: 20px 7px 0px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  /* color: #2d848c; */
+  color: #00838f;
+}
+
+.service_products .sub_head
+{
+  margin: 10px 70px 10px;
+  display: flex;
+  height: 35px;
+  font-size: 1.3rem;
+  color: rgb(123, 122, 122);
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid black;
+}
+
+.service_products .companies_container
+{
+  display: flex;
+  overflow-x: scroll;
+}
+
+.service_products .companies_container::-webkit-scrollbar
+{
+  display: none;
+}
+
+.service_products .companies
+{
+  height: 160px;
+  margin: 5px;
+  background-color: white;
+  display: inline-block;
+  border-radius: 10px;
+  min-width: 100px;
+  max-width: 100px;
+}
+
+.service_products .image
+{
+  margin: 15px 10px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  color: white;
+}
+
+.service_products .text
+{
+  text-align: center;
+}
+
+.service_products .providing_services
+{
+  position: relative;
+  margin-top: 20px;
+  height: 130px;
+  margin: 5px;
+  background-color: white;
+  display: inline-block;
+  min-width: 200px;
+  max-width: 200px;
+  background-image: url("https://storage.googleapis.com/putatoeapp/Image/testImage/J4PHJPI");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.providing_services div
+{
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.putatoeLogo
+{
+  position: fixed;
+  right: 15px;
+  bottom: 10%;
+  margin: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #00838f;
+  /* cursor: pointer; */
+}
+.putatoeLogo img
+{
+  position: fixed;
+  right: 15px;
+  bottom: 10%;
+  margin: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #00838f;
+  scale: 0.7;
+}
+
+.footer
+{
+  position: sticky;
+  bottom: 0;
+  height: 50px;
+  display: flex;
+  /* align-items: center; */
+}
+.footer div
+{
+  position: sticky;
+  bottom: 0;
+  height: 15px;
+  width: 19vw;
+}
+.logo-icon img
+{
+  width: 40px;
+  height: 40px;
+  background-color: #00838f;
+  padding: 0;
+}
+@media (min-width: 530px)
+{
+  .content 
+  {
+    display: none;
+  }
+
+  .only_mobile 
+  {
+    display: block;
+  }
+}
